@@ -1,7 +1,10 @@
 package com.lemon.huffman;
 
 import java.io.File;
-
+/**
+ * BitWriter&BitReader 参考资料：
+ *http://www.cs.dartmouth.edu/~traviswp/cs10/lab/lab4/lab4.html 
+ */
 public class Test {
 
 	public static void main(String[] args) {
