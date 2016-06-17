@@ -173,6 +173,9 @@ public class HuffmanCompression {
 
 			//叶子节点
 			if(root.left==null && root.right==null){
+				if(prefix.length()==0){
+					prefix.append('0');
+				}
 				//System.out.println(root.value + "\t" + root.weight + "\t" + prefix);
 				encodeMap.put(root.value.toString(),prefix.toString());
 				decodeMap.put(prefix.toString(),root.value.toString());
