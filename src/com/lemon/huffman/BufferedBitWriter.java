@@ -24,7 +24,7 @@ public class BufferedBitWriter {
      * @throws FileNotFoundException
      */
     public BufferedBitWriter(String pathName) throws FileNotFoundException {
-        currentByte = new Integer(2024*8*8).byteValue();
+        currentByte = 0;
         numBitsWritten = 0;
         output = new BufferedOutputStream(new FileOutputStream(pathName));
     }
